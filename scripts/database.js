@@ -2,26 +2,28 @@
     'use strict'
     let App = window.App || {}
 
-    function Database(){
-        console.log('Database invoked')
-        this.data = {}
+    class Database {
+        constructor() {
+            console.log('Database invoked')
+            this.data = {}
+        }
+        set(key, value) {
+            this.data[key] = value
+        }
+        get(key) {
+            return this.data[key]
+        }
+        getAll() {
+            return this.data
+        }
+        delete(key) {
+            delete this.data[key]
+        }
     }
 
-    Database.prototype.set = function(key, value){
-        this.data[key] = value
-    }
 
-    Database.prototype.get = function(key){
-        return this.data[key]
-    }
 
-    Database.prototype.getAll = function(){
-        return this.data;
-    }
 
-    Database.prototype.delete = function(key){
-        delete this.data[key];
-    }
 
     App.Database = Database;
     window.App = App;
