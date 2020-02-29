@@ -1,0 +1,30 @@
+{
+  "name": "cafe",
+  "version": "2.0.0",
+  "description": "ES6 update using webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysiekmoro/Cafe.git"
+  },
+  "author": "krzysztof morawski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzysiekmoro/Cafe/issues"
+  },
+  "homepage": "https://github.com/krzysiekmoro/Cafe#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
