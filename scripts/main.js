@@ -1,7 +1,12 @@
-const OrderList = require('./orderlist');
-const FormControl = require('./formcontrol');
-const Cart = require('./cart');
-const Database = require('./database');
+// const OrderList = require('./orderlist');
+// const FormControl = require('./formcontrol');
+// const Cart = require('./cart');
+// const Database = require('./database');
+
+import OrderList from './orderlist';
+import FormControl from './formcontrol';
+import Cart from './cart';
+import Database from './database';
 
 const ORDER_LIST_SELECTOR = '[data-order="orderList"]';
 const FORM_SELECTOR = '[data-order="form"]';

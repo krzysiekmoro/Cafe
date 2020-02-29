@@ -16,4 +16,5 @@ class Database {
         delete this.data[key];
     }
 }
-module.exports = Database;
+//module.exports = Database;
+export default Database;

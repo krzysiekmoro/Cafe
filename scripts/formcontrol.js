@@ -25,4 +25,5 @@ class FormControl {
     }
 }
 
-module.exports = FormControl;
+//module.exports = FormControl;
+export default FormControl;
